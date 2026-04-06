@@ -41,12 +41,12 @@ LMS_Sparc/
 
 2. **Set up Python virtual environment**
    ```bash
-   python -m venv venv
-   
    # On Windows
+   py -m venv venv
    venv\Scripts\activate
    
    # On macOS/Linux
+   python -m venv venv
    source venv/bin/activate
    ```
 
@@ -58,6 +58,10 @@ LMS_Sparc/
 
 4. **Run the application**
    ```bash
+   # On Windows
+   py app.py
+   
+   # On macOS/Linux
    python app.py
    ```
 
